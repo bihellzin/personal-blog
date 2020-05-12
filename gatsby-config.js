@@ -168,10 +168,10 @@ if (process.env.CONTEXT === 'production') {
 
 module.exports = {
   siteMetadata: {
-    title: `Willian Justen`,
-    position: 'Desenvolvedor Front End',
-    description: `Um blog de um desenvolvedor Front End, fã de SVG, Javascript, React e novas tecnologias. Nômade Digital, instrutor na Udemy e viajando o mundo.`,
-    authorDescription: `Instrutor na Udemy, escrevo sobre o mundo front end, viagens, vida pessoal e mais.`,
+    title: `Gabriel de Oliveira`,
+    position: 'Estudante de Sistemas de Informação',
+    description: `Um blog de um desenvolvedor Front End, fã de SVG, Javascript, React e novas tecnologias. Nômade Digital, atualmente trabalhando na Toptal e viajando o mundo.`,
+    authorDescription: `O maior comedor de casadas da Região Metropolitana de Recife`,
     author: `@Willian_justen`,
     siteUrl: 'https://willianjusten.com.br'
   },

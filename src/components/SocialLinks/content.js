@@ -1,23 +1,23 @@
 const links = [
   {
     label: 'Github',
-    url: 'https://github.com/willianjusten'
+    url: 'https://github.com/bihellzin'
   },
   {
-    label: 'Twitter',
-    url: 'https://twitter.com/Willian_justen'
-  },
-  {
-    label: 'Youtube',
-    url: 'https://www.youtube.com/WillianJustenCursos'
+    label: 'Linkedin',
+    url: 'https://www.linkedin.com/in/gabriel-de-oliveira-ferreira-2a13b8191/'
   },
   {
     label: 'Instagram',
-    url: 'https://www.instagram.com/will_justen/'
+    url: 'https://www.instagram.com/gaboriel_oliva/'
   },
   {
-    label: 'Unsplash',
-    url: 'https://unsplash.com/@willianjusten'
+    label: 'Lastfm',
+    url: 'https://www.last.fm/user/GabrielGMoore'
+  },
+  {
+    label: 'Pinterest',
+    url: 'https://br.pinterest.com/ciel_errant/'
   }
 ]
 

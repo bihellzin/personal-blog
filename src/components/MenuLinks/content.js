@@ -8,13 +8,9 @@ const links = [
     url: '/about/'
   },
   {
-    label: 'Cursos',
-    url: '/cursos/'
+    label: 'Portfolio',
+    url: '/portfolio/'
   },
-  {
-    label: 'Séries',
-    url: '/series/'
-  }
 ]
 
 export default links

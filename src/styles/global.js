@@ -75,12 +75,12 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body.light {
-    --borders: #dedede;
+    --borders: #c5e3f6;
     --postColor: #111;
-    --texts: #555555;
-    --highlight: #1fa1f2;
-    --mediumBackground: #f0f0f3;
-    --background: #fff;
+    --texts: #3f3b3b;
+    --highlight: #fc5c9c;
+    --mediumBackground: #fccde2;
+    --background: #fcefee;
     --white: #fff;
     --black: #222;
   }
