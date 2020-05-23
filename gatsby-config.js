@@ -72,7 +72,7 @@ const pluginConfig = [
       background_color: `#1C2938`,
       theme_color: `#1C2938`,
       display: `minimal-ui`,
-      icon: `static/assets/img/willianjusten-icon.png`
+      icon: `static/assets/img/icon.png`
     }
   },
   `gatsby-plugin-styled-components`,
