@@ -28,7 +28,7 @@ function SEO({ description, lang, meta, title, image }) {
   const metaDescription = description || site.siteMetadata.description
 
   const ogImage =
-    image || 'https://willianjusten.com.br/assets/img/blog-image.png'
+    image || '/assets/img/icon.png'
 
   return (
     <Helmet
@@ -40,7 +40,7 @@ function SEO({ description, lang, meta, title, image }) {
       meta={[
         {
           name: `aplication-name`,
-          content: 'Willian Justen Blog'
+          content: 'Gabriel de Oliveira Blog'
         },
         {
           name: `description`,

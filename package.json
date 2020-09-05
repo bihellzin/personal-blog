@@ -1,7 +1,7 @@
 {
-  "name": "willianjusten-blog",
+  "name": "my-blog",
   "private": true,
-  "description": "My personal blog on willianjusten.com.br",
+  "description": "Willian Justen original blog on willianjusten.com.br",
   "version": "2.0.0-alfa",
   "author": "Willian Justen <willianjustenqui@gmail.com>",
   "dependencies": {

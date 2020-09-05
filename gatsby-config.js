@@ -66,8 +66,8 @@ const pluginConfig = [
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `Willian Justen Blog`,
-      short_name: `WJusten`,
+      name: `Gabriel de Oliveira Blog`,
+      short_name: `Bielzin`,
       start_url: `/`,
       background_color: `#1C2938`,
       theme_color: `#1C2938`,
@@ -133,7 +133,7 @@ const pluginConfig = [
             }
           `,
           output: '/feed.xml',
-          title: 'Willian Justen Blog - RSS Feed'
+          title: 'Gabriel de Oliveira Blog - RSS Feed'
         }
       ]
     }
@@ -169,10 +169,10 @@ if (process.env.CONTEXT === 'production') {
 module.exports = {
   siteMetadata: {
     title: `Gabriel de Oliveira`,
-    position: 'Estudante de Sistemas de Informação',
-    description: `Um blog de um desenvolvedor Front End, fã de SVG, Javascript, React e novas tecnologias. Nômade Digital, atualmente trabalhando na Toptal e viajando o mundo.`,
-    authorDescription: `O maior comedor de casadas da Região Metropolitana de Recife`,
-    author: `@Willian_justen`,
+    position: 'Estudante de sistemas de informação na UFPE',
+    description: `Um blog para eu poder expressar um pouco o que penso sem recorrer a chat de outros nas redes sociais.`,
+    authorDescription: `Apaixonado por música boa e tecnologia, apreciador de animes e esportes eletronicos nas horas vagas`,
+    author: `@bihellzin`,
     siteUrl: 'https://willianjusten.com.br'
   },
   plugins: pluginConfig

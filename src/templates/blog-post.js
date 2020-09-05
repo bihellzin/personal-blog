@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout/'
 import SEO from '../components/Seo'
 import RecommendedPosts from '../components/RecommendedPosts'
-import Comments from '../components/Comments'
+// import Comments from '../components/Comments'
 
 import {
   PostHeader,
@@ -24,7 +24,7 @@ export default props => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description}
-        image={`https://willianjusten.com.br${post.frontmatter.image}`}
+        image={post.frontmatter.image}
       />
       <PostHeader>
         <PostDate>
@@ -37,7 +37,7 @@ export default props => {
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </MainContent>
       <RecommendedPosts next={next} previous={previous} />
-      <Comments url={post.fields.slug} title={post.frontmatter.title} />
+      {/*<Comments url={post.fields.slug} title={post.frontmatter.title} />*/}
     </Layout>
   )
 }
